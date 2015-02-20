@@ -10,8 +10,13 @@
 
 // force-host
 
+#![crate_name = "lint_plugin_test"]
+#![crate_type = "dylib"]
 #![feature(plugin_registrar)]
 #![feature(box_syntax)]
+#![feature(rustc_private)]
+
+
 
 extern crate syntax;
 
