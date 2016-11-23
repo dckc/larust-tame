@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["Dan Connolly <dckc@madmode.com>"]
 
 [dependencies]
+tag_safe = "0.1.1"
